@@ -1,0 +1,55 @@
+1 1 eq 2.2 2.2 eq and
+{
+ 10.0 20   moveto
+ 25   40.0 lineto
+ 40.0 20.0 lineto
+ closepath
+ 5 setlinewidth
+ 0.2 0.8 0.1 setrgbcolor
+ stroke
+}
+{
+}
+ifelse
+
+1 1 eq not 2.2 2.2 eq or
+{
+ 10.0 120   moveto
+ 25   140.0 lineto
+ 40.0 120.0 lineto
+ closepath
+ 5 setlinewidth
+ 0.2 0.0 0.8 setrgbcolor
+ stroke
+}
+{
+}
+ifelse
+
+1 1 eq 2.2 2.2 eq not and
+{
+}
+{
+ 110.0 20   moveto
+ 125   40.0 lineto
+ 140.0 20.0 lineto
+ closepath
+ 5 setlinewidth
+ 0.8 0.0 1 setrgbcolor
+ stroke
+}
+ifelse
+
+1 1 eq not 2.2 2.2 eq not or
+{
+}
+{
+ 110.0 120   moveto
+ 125   140.0 lineto
+ 140.0 120.0 lineto
+ closepath
+ 5 setlinewidth
+ 0.8 0.0 0 setrgbcolor
+ stroke
+}
+ifelse
